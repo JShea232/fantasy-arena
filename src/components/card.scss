@@ -1,0 +1,61 @@
+.card {
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+  border-radius: 8px;
+  height: 89px;
+  width: 64px;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.cyclops {
+  background-color: teal;
+  background-image: url('../assets/cyclops.svg');
+}
+
+.dragon {
+  background-color: darkorange;
+  background-image: url('../assets/dragon.svg');
+}
+
+.hydra {
+  background-color: gold;
+  background-image: url('../assets/hydra.svg');
+  color: black;
+}
+
+.ranger {
+  background-color: darkgreen;
+  background-image: url('../assets/ranger.svg');
+}
+
+.titan {
+  background-color: darkred;
+  background-image: url('../assets/titan.svg');
+}
+
+.troll {
+  background-color: saddlebrown;
+  background-image: url('../assets/troll.svg');
+}
+
+.unicorn {
+  background-color: midnightblue;
+  background-image: url('../assets/unicorn.svg');
+}
+
+.warlock {
+  background-color: blueviolet;
+  background-image: url('../assets/warlock.svg');
+}
+
+.spectator {
+  background-color: gray;
+}
+
+.head,
+.referee {
+  background-color: white;
+}
